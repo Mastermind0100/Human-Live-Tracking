@@ -14,7 +14,7 @@ ap.add_argument('-cl', '--classes', required=True,
             help = 'path to text file containing class names')
 args = ap.parse_args()
 
-cap = cv2.VideoCapture('hghg.mp4')
+cap = cv2.VideoCapture('your-video-file-here.mp4')
 ax = plt.gca()
 ax.cla()
 
